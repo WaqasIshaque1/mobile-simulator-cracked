@@ -1,0 +1,371 @@
+{
+  "extName": {
+    "message": "Mobile simulator - αποκριτικό εργαλείο δοκιμών"
+  },
+  "extDescription": {
+    "message": "Προσομοιωτής smartphone και tablet σε υπολογιστή με πολλά μοντέλα για δοκιμή ιστοτόπων με απόκριση για κινητά."
+  },
+  "global": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "global_cancel": {
+    "message": "Ματαίωση"
+  },
+  "android_smartphone": {
+    "message": "<i class='mdi'>&#xe922;</i> smartphone Android"
+  },
+  "apple_smartphone": {
+    "message": "<i class='mdi'>&#xeabe;</i> smartphone της Apple"
+  },
+  "tablet": {
+    "message": "<i class='mdi'>&#xe920;</i> Tablet"
+  },
+  "others": {
+    "message": "<i class='mdi'>&#xe921;</i> Ειδικές προσφορές"
+  },
+  "copie": {
+    "message": "Αντίγραφο"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε"
+  },
+  "context_menu": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "context_menu_activate": {
+    "message": "Ενεργοποιήστε την προβολή για κινητά σε αυτήν τη σελίδα"
+  },
+  "popup": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "popup_site_incompatible": {
+    "message": "Αυτός ο προσομοιωτής δεν μπορεί να ενεργοποιηθεί σε αυτήν την εγγενή σελίδα του Chrome. Δοκιμάστε σε άλλη καρτέλα. Ή κάντε περιήγηση σε έναν ιστότοπο και επανεκκινήστε."
+  },
+  "popup_message": {
+    "message": "Αλλάξτε συσκευή και βρείτε όλες τις επιλογές χρησιμοποιώντας το μενού στα δεξιά του προσομοιωτή"
+  },
+  "popup_activate_local_files_info": {
+    "message": "Αυτός ο προσομοιωτής δεν μπορεί να ενεργοποιηθεί από προεπιλογή σε τοπικά αρχεία (file:///), αλλά μπορείτε να ενεργοποιήσετε μη αυτόματα την επιλογή στη σελίδα ρυθμίσεων του Chrome."
+  },
+  "popup_activate_local_files_button": {
+    "message": "Ενεργοποιήστε την επιλογή"
+  },
+  "menu": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "menu_close_alone": {
+    "message": "Απενεργοποιήστε τον προσομοιωτή"
+  },
+  "menu_close_multi": {
+    "message": "Κλείστε αυτό το παράθυρο"
+  },
+  "menu_change_device": {
+    "message": "Αλλάξτε συσκευή"
+  },
+  "menu_info_device": {
+    "message": "Χαρακτηριστικά και μακέτα αυτού του τηλεφώνου (ανάλυση θύρας προβολής, κ.λπ.)"
+  },
+  "menu_info_device_features": {
+    "message": "Λειτουργίες (ανάλυση θύρας προβολής, κ.λπ.)"
+  },
+  "menu_info_device_mockup": {
+    "message": "Δωρεάν διάφανη μακέτα PNG"
+  },
+  "menu_rotate": {
+    "message": "Αλλάξτε τον προσανατολισμό"
+  },
+  "menu_screenshot": {
+    "message": "Τραβήξτε ένα στιγμιότυπο οθόνης"
+  },
+  "menu_screencast": {
+    "message": "Ξεκινήστε μια εγγραφή καρτελών"
+  },
+  "menu_send_improvement": {
+    "message": "Προτείνετε μια βελτίωση"
+  },
+  "menu_send_message": {
+    "message": "Κέντρο βοήθειας"
+  },
+  "menu_faq_title": {
+    "message": "Συχνές ερωτήσεις"
+  },
+  "menu_faq_media_queries": {
+    "message": "Τα ερωτήματά μου για τα μέσα δεν λειτουργούν"
+  },
+  "menu_faq_ignonito_mode": {
+    "message": "Πώς να ενεργοποιήσετε τον προσομοιωτή σε κατάσταση ανώνυμης περιήγησης;"
+  },
+  "menu_faq_scroll": {
+    "message": "Δεν είναι δυνατή η κύλιση στον προσομοιωτή"
+  },
+  "menu_faq_subscription": {
+    "message": "Γιατί η συνδρομή μου δεν λειτουργεί"
+  },
+  "menu_faq_shortcut": {
+    "message": "Πώς να ρυθμίσετε τις συντομεύσεις πληκτρολογίου;"
+  },
+  "menu_faq_all": {
+    "message": "Δείτε όλες τις συχνές ερωτήσεις"
+  },
+  "menu_report": {
+    "message": "Αναφορά σφάλματος"
+  },
+  "menu_vote_feature": {
+    "message": "Ψηφίστε για τα χαρακτηριστικά που θέλετε"
+  },
+  "menu_share": {
+    "message": "Μοιραστείτε το με έναν συνάδελφο, έναν φίλο,..."
+  },
+  "menu_settings": {
+    "message": "Ρυθμίσεις"
+  },
+  "menu_theme_day": {
+    "message": "Ενεργοποιήστε τη λειτουργία ημέρας"
+  },
+  "menu_theme_night": {
+    "message": "Ενεργοποιήστε τη νυχτερινή λειτουργία"
+  },
+  "menu_add_window": {
+    "message": "Προσθέστε μια συσκευή σε νέο παράθυρο"
+  },
+  "menu_help_center": {
+    "message": "Κέντρο βοήθειας"
+  },
+  "simulator": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "simulator_header_info": {
+    "message": "Αυτό είναι ένα ψεύτικο στοιχείο. Για να αλλάξετε τη διεύθυνση URL, απλώς χρησιμοποιήστε το πεδίο κειμένου του Chrome στο επάνω μέρος."
+  },
+  "simulator_footer_info": {
+    "message": "Αυτό είναι ένα ψεύτικο στοιχείο. Χρησιμοποιήστε το δικό σας πληκτρολόγιο."
+  },
+  "screencast": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "screencast_onboarding_title": {
+    "message": "Εγγραφή καρτελών"
+  },
+  "screencast_onboarding_texte": {
+    "message": "Δημιουργήστε ένα βίντεο για κινητά σε μορφή GIF σε 1 κλικ (μέγιστο 20 δευτερόλεπτα)"
+  },
+  "screencast_onboarding_close": {
+    "message": "Κοντά"
+  },
+  "screencast_generation": {
+    "message": "Η δημιουργία του GIF συνεχίζεται"
+  },
+  "screencast_error": {
+    "message": "Παρουσιάστηκε σφάλμα κατά την εγγραφή της καρτέλας. {Κάντε κλικ εδώ} για μια λύση."
+  },
+  "screencast_modale_title": {
+    "message": "Εγγραφή καρτελών"
+  },
+  "screencast_modale_texte": {
+    "message": "Μπορείτε να κάνετε λήψη αυτού του βίντεο σε διαφορετικές μορφές ή να λάβετε έναν σύνδεσμο κοινής χρήσης."
+  },
+  "screencast_modale_download": {
+    "message": "Λήψη"
+  },
+  "screencast_modale_download_webm": {
+    "message": "Λήψη σε προεπιλεγμένη μορφή WEBM"
+  },
+  "screencast_modale_download_mp4": {
+    "message": "Καλύτερη συμβατότητα με PowerPoint, Keynote κ.λπ."
+  },
+  "screencast_modale_download_gif": {
+    "message": "Συμβατό παντού, αλλά χαμηλότερης ποιότητας"
+  },
+  "screencast_modale_copy": {
+    "message": "Αντίγραφο"
+  },
+  "screencast_modale_upload": {
+    "message": "Ανεβάστε στον διακομιστή και λάβετε τον σύνδεσμο κοινής χρήσης"
+  },
+  "screencast_modale_contact": {
+    "message": "Αναφέρετε ένα σφάλμα, μια πρόταση, ..."
+  },
+  "screenshot": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "screenshot_menu_1": {
+    "message": "Στιγμιότυπο οθόνης με το πλαίσιο της συσκευής"
+  },
+  "screenshot_menu_2": {
+    "message": "Στιγμιότυπο οθόνης χωρίς το πλαίσιο της συσκευής"
+  },
+  "screenshot_menu_3": {
+    "message": "Στιγμιότυπο οθόνης πλήρους σελίδας"
+  },
+  "screenshot_modale_title": {
+    "message": "Στιγμιότυπο οθόνης"
+  },
+  "screenshot_modale_copy": {
+    "message": "Αντιγραφή εικόνας στο πρόχειρο"
+  },
+  "screenshot_modale_help": {
+    "message": "Για να αποθηκεύσετε την εικόνα με καλή ανάλυση, μπορείτε απλώς να κάνετε ένα δεξί κλικ πάνω της και μετά \"Αντιγραφή εικόνας\" ή \"Αποθήκευση εικόνας ως\""
+  },
+  "pro": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "pro_modale_h1": {
+    "message": "Γίνετε PRO"
+  },
+  "pro_modale_h1_limit": {
+    "message": "Έχετε φτάσει το όριο των 5 εγγραφών καρτελών ανά ημέρα"
+  },
+  "pro_modale_h1_all_formats": {
+    "message": "Μετατρέψτε τις λήψεις βίντεο σε μορφές GIF και MP4"
+  },
+  "pro_modale_h1_devices": {
+    "message": "Προσομοίωση όλων των συσκευών"
+  },
+  "pro_modale_h1_settings": {
+    "message": "Ξεκλειδώστε όλες τις ρυθμίσεις"
+  },
+  "pro_modale_h1_ads": {
+    "message": "Κατάργηση διαφημίσεων"
+  },
+  "pro_modale_h2": {
+    "message": "Γίνετε PRO και συμβάλετε ενεργά στην ανάπτυξη αυτής της επέκτασης."
+  },
+  "pro_modale_billed_annualy": {
+    "message": "Τιμολογείται ετησίως"
+  },
+  "pro_modale_savings": {
+    "message": "Εκτός"
+  },
+  "pro_modale_from": {
+    "message": "Από"
+  },
+  "pro_modale_recurring_month": {
+    "message": "μήνας"
+  },
+  "pro_modale_button": {
+    "message": "Συνεισφέρω"
+  },
+  "pro_modale_link_1": {
+    "message": "Ή"
+  },
+  "pro_modale_link_2": {
+    "message": "συνδεθείτε"
+  },
+  "pro_modale_link_3": {
+    "message": "στον λογαριασμό σας"
+  },
+  "pro_modale_avantage_1": {
+    "message": "Απεριόριστες εγγραφές καρτελών"
+  },
+  "pro_modale_avantage_2": {
+    "message": "Κατάργηση διαφημίσεων"
+  },
+  "sharing": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "sharing_h1": {
+    "message": "Αυτή η επέκταση είναι χρήσιμη για εσάς;"
+  },
+  "sharing_h2": {
+    "message": "Μοιραστείτε το λοιπόν με τους συναδέλφους ή τους φίλους σας"
+  },
+  "sharing_txt": {
+    "message": "Προσομοιωτής για να δοκιμάσετε τον ιστότοπό σας σε smartphone και tablet"
+  },
+  "sharing_review_1": {
+    "message": "Και αν έχετε ένα λεπτό να"
+  },
+  "sharing_review_2": {
+    "message": "προσθέστε μια κριτική"
+  },
+  "sharing_review_3": {
+    "message": "Θα σας ήμουν πολύ ευγνώμων 🙂"
+  },
+  "sharing_review_button": {
+    "message": "Προσθέτω μια κριτική"
+  },
+  "review": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "review_h1": {
+    "message": "Θα προτείνατε αυτήν την επέκταση;"
+  },
+  "review_note_store": {
+    "message": "Σας ευχαριστούμε για τα σχόλιά σας, μη διστάσετε να προσθέσετε μια κριτική στο Google Store. Θα ήμουν πολύ ευγνώμων 😊"
+  },
+  "review_note_feedback": {
+    "message": "Σας ευχαριστούμε για τα σχόλιά σας, μη διστάσετε να μας στείλετε ένα μήνυμα για να βελτιώσουμε αυτήν την επέκταση."
+  },
+  "button_feedback": {
+    "message": "Προσθέστε μια κριτική"
+  },
+  "button_message": {
+    "message": "Στείλτε μας ένα μήνυμα"
+  },
+  "close": {
+    "message": "Κοντά"
+  },
+  "settings": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "settings_hide_header_footer": {
+    "message": "Απόκρυψη της κεφαλίδας και του υποσέλιδου του προγράμματος περιήγησης στη συσκευή (PWA)"
+  },
+  "settings_hide_keyboard": {
+    "message": "Μην εμφανίζετε το ψεύτικο πληκτρολόγιο"
+  },
+  "settings_scrollbar_show": {
+    "message": "Εμφάνιση της εγγενούς γραμμής κύλισης στη συσκευή (αν δεν έχετε επιφάνεια αφής ή τροχό ποντικιού)"
+  },
+  "settings_change_cursor": {
+    "message": "Μην αλλάζετε το στυλ του δρομέα στη συσκευή"
+  },
+  "settings_change_background": {
+    "message": "Αλλάξτε το χρώμα του φόντου"
+  },
+  "settings_default_device": {
+    "message": "Προεπιλεγμένη συσκευή για κάθε νέα ενεργοποίηση"
+  },
+  "settings_change_analytics": {
+    "message": "Υποστηρίζω τον προγραμματιστή αυτής της επέκτασης να βελτιώσει το προϊόν του χάρη στο Google Analytics. Τα δεδομένα είναι ανώνυμα."
+  },
+  "settings_device_hide": {
+    "message": "Απόκρυψη της συσκευής"
+  },
+  "settings_batterie_level": {
+    "message": "Επίπεδο μπαταρίας στην κεφαλίδα τερματικού (%)"
+  },
+  "settings_presenter_mode": {
+    "message": "Λειτουργία παρουσίασης (δεξιό μενού εμφανίζεται μόνο στο δείκτη του ποντικιού)"
+  },
+  "modales": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "new_iphone_15_h1": {
+    "message": "Γίνετε ο πρώτος που θα χρησιμοποιήσει (εικονικά) το iPhone 15 PRO"
+  },
+  "notifications": {
+    "message": "-------------------------------------------------- ------"
+  },
+  "notification_update_title_v100_100_100": {
+    "message": "<strong class='mb-2 is-block'>Πληροφορίες</strong>Η κύλιση αφής δεν είναι διαθέσιμη σε αυτόν τον προσομοιωτή, αλλά μπορείτε να <strong>εμφανίσετε τη γραμμή κύλισης</strong> εάν δεν έχετε τροχό ποντικιού ή επιφάνεια αφής για κύλιση.<br><br>Είναι μια επιλογή στις ρυθμίσεις κάτω δεξιά <i class='mdi'>&#xe905;</i>"
+  },
+  "notification_update_title_v4_0_0": {
+    "message": "<strong class='mb-2 is-block'>Ενημέρωση έκδοσης 4.0</strong>Σημαντική ενημέρωση σχετικά με τη λήψη βίντεο. Νέες μορφές βίντεο και απεριόριστος χρόνος εγγραφής! <i class='mdi'>&#xe90e;</i>"
+  },
+  "notification_update_title_v4_0_1": {
+    "message": "<strong class='mb-2 is-block'>Ενημέρωση έκδοσης 4.0</strong>Επιδιορθώσεις σχετικά με ζητήματα εμφάνισης στον προσομοιωτή."
+  },
+  "notification_update_title_v4_1_0": {
+    "message": "<strong class='mb-2 is-block'>Ενημέρωση v4.1</strong>3 νέων πρόσφατων συσκευών (στην έκδοση PRO). Google Pixel 8, Samsung Galaxy S24 και ULTRA <i class='mdi'>&#xe917;</i>"
+  },
+  "notification_update_title_v4_1_2": {
+    "message": "<strong class='mb-2 is-block'>Ενημέρωση έκδοσης 4.1.2</strong>Πολλές διορθώσεις σφαλμάτων σχετικά με τη μετατροπή των λήψεων βίντεο"
+  },
+  "notification_update_title_v4_2_0": {
+    "message": "<strong class='mb-2 is-block'>Ενημέρωση έκδοσης 4.2</strong>Μπορείτε πλέον να δοκιμάσετε τους ιστότοπούς σας με το πιο πρόσφατο iPhone 16.</strong> <i class='mdi'>&#xe917;< /i>"
+  },
+  "notification_update_title_v4_2_2": {
+    "message": "<strong class='mb-2 is-block'>Ενημέρωση έκδοσης 4.2.2</strong><strong>Διορθώσεις</strong> σχετικά με τη δημιουργία λήψεων βίντεο, καθώς και στιγμιότυπα οθόνης πλήρους σελίδας"
+  }
+}
