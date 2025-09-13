@@ -15,7 +15,7 @@ A browser extension that allows you to simulate various mobile devices and check
 Follow these steps to install the Cracked Mobile Simulator extension on your system:
 
 ### Step 1: Download the Extension
-1. Go to the [Releases](https://github.com/your-repo/releases) page of this repository
+1. Go to the [Releases](https://github.com/WaqasIshaque1/mobile-simulator-cracked/releases) page of this repository
 2. Download the latest `.zip` file from the releases section
    - ZIP files are automatically generated and uploaded when you create a new release
    - You can also find the latest build in the Actions artifacts if needed
