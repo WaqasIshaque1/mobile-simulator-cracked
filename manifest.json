@@ -5,7 +5,7 @@
     "name": "mobile simulator - Cracked by waqas",
     "description": "__MSG_extDescription__",
     "default_locale": "en",
-    "author": "François Duprat",
+    "author": "Waqas Ishaque",
     "permissions": [
         "webRequest",
         "scripting",

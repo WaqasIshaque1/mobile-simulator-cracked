@@ -1,0 +1,48 @@
+name: Create and Upload ZIP
+
+on:
+  release:
+    types: [published]
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  create-zip:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Create ZIP file
+      run: |
+        # Remove .git directory and other unnecessary files
+        rm -rf .git
+        rm -rf .github
+        rm -f .gitignore
+
+        # Create ZIP file with repository name and version
+        if [ -n "${{ github.event.release.tag_name }}" ]; then
+          zip -r "${{ github.event.repository.name }}-${{ github.event.release.tag_name }}.zip" .
+        else
+          zip -r "${{ github.event.repository.name }}-latest.zip" .
+        fi
+
+    - name: Upload ZIP to release
+      if: github.event_name == 'release'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./${{ github.event.repository.name }}-${{ github.event.release.tag_name }}.zip
+        asset_name: ${{ github.event.repository.name }}-${{ github.event.release.tag_name }}.zip
+        asset_content_type: application/zip
+
+    - name: Upload ZIP as artifact
+      if: github.event_name != 'release'
+      uses: actions/upload-artifact@v4
+      with:
+        name: repository-zip
+        path: ./${{ github.event.repository.name }}*.zip
